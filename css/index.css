@@ -6,9 +6,9 @@ body {
     height: 550px;
     width: 800px;
     background-color: rgba(210,210,255,0.5);
-    position: relative;
-    left: 270px;
-    bottom: -50px
+    position: absolute;
+    left: 20%;
+    top: 10%;
 }
 #arlistak .price {
     width: 250px;
