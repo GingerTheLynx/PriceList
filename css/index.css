@@ -1,9 +1,10 @@
 body {
     background-image: url('../img/background.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #arlistak {
-    height: 550px;
+    height: 700px;
     width: 800px;
     background-color: rgba(210,210,255,0.5);
     position: relative;
@@ -11,6 +12,8 @@ body {
 
     margin-left: auto;
     margin-right: auto;
+    font-family: 'SummerFont';
+    font-size: 24px;
 }
 #arlistak .price {
     width: 250px;
@@ -18,4 +21,36 @@ body {
     position: absolute;
     top: -30px;
     left: 270px;
+}
+@font-face {
+    font-family: 'SummerFont';
+    src: url('../fonts/Summerfont-Regular3.otf');
+}
+.lista {
+    position: absolute;
+    top: 60px;
+}
+.elerhetosegek {
+    position: absolute;
+    bottom: 30px;
+}
+.kep1 {
+    position: absolute;
+    top: 250px;
+    left: 550px;
+    height: 350px;
+    width: 200px;
+}
+.kep3 {
+    position: absolute;
+    top: 220px;
+    left: 270px;
+    height: 370px;
+    width: 280px;
+}
+.kep4 {
+    position: absolute;
+    top: 250px;
+    height: 370px;
+    width: 260px;
 }
