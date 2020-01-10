@@ -1,0 +1,19 @@
+body {
+    background-image: url('../img/background.png');
+    background-size: cover;
+}
+#arlistak {
+    height: 550px;
+    width: 800px;
+    background-color: rgba(210,210,255,0.5);
+    position: relative;
+    left: 270px;
+    bottom: -50px
+}
+#arlistak .price {
+    width: 250px;
+    height: 90px;
+    position: absolute;
+    top: -30px;
+    left: 270px;
+}
