@@ -36,21 +36,25 @@ body {
 }
 .kep1 {
     position: absolute;
-    top: 250px;
+    top: 120px;
     left: 550px;
     height: 350px;
     width: 200px;
 }
 .kep3 {
     position: absolute;
-    top: 220px;
+    top: 100px;
     left: 270px;
     height: 370px;
     width: 280px;
 }
 .kep4 {
     position: absolute;
-    top: 250px;
+    top: 130px;
     height: 370px;
     width: 260px;
+}
+.telegram {
+    position: relative;
+    top: 320px;
 }
